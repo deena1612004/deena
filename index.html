@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Collections</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.png">
+</head>
+<body>
+     <div class="container">
+        <div class="navbar">
+            <img src="images/logo.png" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="acrylic.html">Acrylic</a></li>
+                    <li><a href="first.html">Glass</a></li>
+                    <li><a href="wood.html">Wood</a></li>
+                    <li><a href="flowers.html">Flowers</a></li>
+                </ul>
+            </nav>
+            <img src="images/menubar.jpg" class="menu-icon" onclick="togglemenu()">
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>Welcome to<br>Gift Collections</h2>
+                <h3>World Famous Collections</h3>
+                <p>Find Your Favourate Gifts</p>
+                <h4>World Premium</h4>
+                <br>
+            
+                <button> <a href="new.html">Find Gifts</a>
+                </button>
+               
+            </div>
+
+            <div class="col-2">
+                <img src="images/controller.png" class="controller">
+                <div class="color-box"></div>
+                <p class="justify">We often give gifts to re-confirm or establish our connection with others, which means that they're a reflection of both the giver and the receiver, as well as their unique relationship. Giving a gift to someone we care about allows us to communicate our feelings and appreciation for them.</p>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <a href="https://www.youtube.com/@deenadhayalans" target="_blank"><img src="images/youtube.png" ></a>
+            <a href="https://www.instagram.com/dr_16_27/" target="_blank"><img src="images/instagram.png" ></a>
+            <a href="https://www.linkedin.com/in/deenadhayalan-s-3394b1267/" target="_blank"><img src="images/linkedin.png" ></a>
+            
+        </div>
+     </div>
+
+     <script>
+
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+     </script>
+</body>
+</html>
